@@ -1,8 +1,7 @@
 #### This is an exapmle of a company website. It's fully responsive, modern and open source.
 
 # Lets see what we have in the website:
-![](https://i.ibb.co/0mr7Z05/Animation.gif)
-
+![alt text](https://i.ibb.co/0mr7Z05/Animation.gif)
 # Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
