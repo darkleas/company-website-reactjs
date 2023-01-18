@@ -2,8 +2,6 @@
   "name": "companywebsite",
   "version": "0.1.0",
   "homepage": "https://gitname.github.io/react-gh-pages",
-  "predeploy" : "npm run build",
-  "deploy" : "gh-pages -d build",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -20,7 +18,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
