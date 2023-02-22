@@ -199,9 +199,16 @@ header {
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
 }
 header h1 {
+  text-align: center;
+  z-index: 1;
+  color: white; 
+  font-size: 64px;
+}
+
+header h2 {
   z-index: 1;
   color: white;
-  font-size: 64px;
+  font-size: 32px;
 }
 .opened {
   transform: translateX(0%)!important;
