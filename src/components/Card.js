@@ -1,28 +1,24 @@
-function About() {
+function Card(props) {
   return (
-    <>
-      <div style={{marginTop:'15rem',width:'100%',height:'10px'}} className="about-scroll"></div>
-
-      <div className="container about">
-        <div className="row">
-          <div className="col-md-6 text-center">
-            <img
-              alt="about"
-              src={process.env.PUBLIC_URL + "/img/about1.jpg"}
-              className="img-fluid"
-            />
-          </div>
-          <div className="col-md-6">
-            <h2 className="main-title about-h2">ABOUT</h2>
-            <p className="main-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              quam purus, ullamcorper id risus eu, consectetur consectetur
-              purus. Etiam sagittis in eros ac sollicitudin.
-            </p>
-          </div>
-        </div>
+    <div className="card">
+      <br />
+      
+      <div className="text-center">
+        <img
+          alt="card-img"
+          src={process.env.PUBLIC_URL + "/img/" + props.img}
+          className="text-center img-fluid"
+        />
       </div>
-    </>
+      <div className="text-center">
+        <h3 className="card-title">{props.title}</h3>
+      </div>
+      <div className="p-3">
+        <p className="card-text">
+           {props.text}
+        </p>
+      </div>
+    </div>
   );
 }
-export default About;
+export default Card;
